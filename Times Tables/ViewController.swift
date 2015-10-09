@@ -32,7 +32,7 @@ class ViewController: UIViewController, UITableViewDelegate {
     // Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
     
 
-    public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "Cell")
         

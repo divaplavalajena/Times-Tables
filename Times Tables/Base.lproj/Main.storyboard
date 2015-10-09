@@ -55,7 +55,6 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="sliderMoved" destination="ahi-aB-etF" id="djj-FX-9Cg"/>
                         <outlet property="sliderValue" destination="ahi-aB-etF" id="uZc-UA-pm3"/>
                     </connections>
                 </viewController>
